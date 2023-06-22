@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.nav{
+    background-color:#272726;
+    color: white;
+    width: 100%;
+}
+
+.nav ul{
+    list-style-type:none;
+    display: inline-flex;
+    margin-left: 100px;
+    padding: 30px;
+}
+.nav ul li{
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.heading{
+    width: 100%;
+    height: 250px;
+    background: #272726;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading div{
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    padding: 20px;
+}
+.about{
+    margin: 60px;
+}
+.image{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 450px;
+    width: 350px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.button{
+    text-align: center;
+    padding: 20px;
+}
+button{
+    border: none;
+}
+.btn1{
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.btn2{
+    background-color: red;
+    padding: 5px;
+    color: white;
+    margin-left: 4px;
+    border-radius: 3px;
+}
+.btn3{
+    background-color: orangered;
+    padding: 5px;
+    color: white;
+    margin-left: 5px;
+    border-radius: 3px;
+}
+
+.quote{
+    background-color: #272726 ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:25px
+}
+.award-heading{
+    text-align: center;
+    padding: 20px;
+}
+
+.award{
+     display: flex;
+}
+
+.award-items{
+    border: 1px solid #E5E4E2;
+    margin: 10px;
+    padding: 10px;
+}
+
+.writing{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.poems-main{
+    margin-top:30px ;
+    display: flex;
+    justify-content: space-around;
+}
+
+.poetry{
+    list-style-position: inside;
+    padding: 20px;
+}
+
+.poems{
+    list-style-position: inside;
+    padding: 20px;
+}
+
+footer{
+    font-size: 10px;
+    height: 110px;
+    background-color: #272726 ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footeritems1{
+    border-right: 1px solid white;
+    margin-right: 20px;
+    padding-right:10px;
+}
+.footeritems2{
+    border-right: 1px solid white;
+    margin-right: 20px;
+    padding-right:10px;
+}
